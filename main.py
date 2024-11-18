@@ -8,7 +8,7 @@ clock = pygame.time.Clock()
 async def main():    #これが必須の奴
     x, y = 50, 50
     while True:
-        screen.fill((0, 255, 0))
+        screen.fill((0, 0, 255))
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                pygame.quit()
