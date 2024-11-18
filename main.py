@@ -1,5 +1,6 @@
 import asyncio    #これが必須の奴
 import pygame, sys
+import openpyxl
 pygame.init()
 screen = pygame.display.set_mode((320, 240))
 clock = pygame.time.Clock()
