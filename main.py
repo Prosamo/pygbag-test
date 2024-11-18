@@ -17,7 +17,7 @@ async def main():    #これが必須の奴
                 x += 5
             if event.type == pygame.MOUSEBUTTONDOWN:
                 y += 5
-        pygame.draw.rect(screen, ((255, 0, 0)), (x, y, 20, 20))
+        pygame.draw.rect(screen, ((0, 0, 255)), (x, y, 20, 20))
         pygame.display.update()
         clock.tick(30)
         await asyncio.sleep(0)    #これが必須の奴
